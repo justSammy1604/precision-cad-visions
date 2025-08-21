@@ -12,22 +12,22 @@ const Projects = () => {
   const filteredProjects = getProjectsByCategory(activeFilter);
 
   return (
-    <div className="min-h-screen text-white">
+  <div className="min-h-screen text-white">
       <Navigation />
       
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#101725] via-gray-900 to-[#101725]">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#c4ff0d] opacity-15 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-1/3 right-1/3 w-64 h-64 bg-green-400 opacity-15 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/4 left-1/4 w-48 h-48 sm:w-96 sm:h-96 bg-[#c4ff0d] opacity-15 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-1/3 right-1/3 w-32 h-32 sm:w-64 sm:h-64 bg-green-400 opacity-15 rounded-full blur-3xl"></div>
       </div>
 
-      <div className="relative z-10 pt-24 pb-16 px-6">
+  <div className="relative z-10 pt-16 pb-12 px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
+        <div className="text-center mb-12">
+          <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold mb-6">
             Featured <span className="text-[#c4ff0d]">Projects</span>
           </h1>
-          <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+          <p className="text-base sm:text-xl text-gray-400 max-w-3xl mx-auto">
             A showcase of precision engineering and innovative mechanical design solutions
           </p>
         </div>
@@ -52,7 +52,7 @@ const Projects = () => {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project, index) => (
             <div
               key={project.id}

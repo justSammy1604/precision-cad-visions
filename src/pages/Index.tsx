@@ -26,7 +26,7 @@ const Index = () => {
   const featuredProjects = projects.slice(0, 3);
 
   return (
-    <div className="min-h-screen bg-[#000000] text-white relative overflow-hidden">
+  <div className="min-h-screen bg-[#000000] text-white relative overflow-hidden">
       {/* Navigation */}
       <Navigation />
       
@@ -38,26 +38,26 @@ const Index = () => {
       </div>
 
       {/* Hero Section */}
-      <div className="relative z-10 min-h-screen flex items-center justify-center px-6">
+      <div className="relative z-10 min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto text-center">
           {/* Main Name - Reduced by 25% */}
-          <h1 className="fade-in-element opacity-0 translate-y-8 transition-all duration-700 text-5xl md:text-6xl font-bold mb-4 tracking-tight">
+          <h1 className="fade-in-element opacity-0 translate-y-8 transition-all duration-700 text-3xl sm:text-5xl md:text-6xl font-bold mb-4 tracking-tight">
             PARTISH<span className="ml-[5%]">PEDNEKAR</span>
           </h1>
           
           {/* Role */}
-          <p className="fade-in-element opacity-0 translate-y-8 transition-all duration-700 text-xl md:text-2xl text-gray-300 mb-12 font-light" style={{ animationDelay: '0.1s' }}>
+          <p className="fade-in-element opacity-0 translate-y-8 transition-all duration-700 text-base sm:text-xl md:text-2xl text-gray-300 mb-12 font-light" style={{ animationDelay: '0.1s' }}>
             Mechanical Design Engineer
           </p>
           
           {/* Main Tagline */}
-          <h2 className="fade-in-element opacity-0 translate-y-8 transition-all duration-700 text-3xl md:text-5xl font-bold mb-6 leading-tight" style={{ animationDelay: '0.2s' }}>
+          <h2 className="fade-in-element opacity-0 translate-y-8 transition-all duration-700 text-2xl sm:text-3xl md:text-5xl font-bold mb-6 leading-tight" style={{ animationDelay: '0.2s' }}>
             <span className="text-[#c4ff0d]">Precision Engineering</span><br />
             <span className="text-[#c4ff0d]">Made Visual</span>
           </h2>
           
           {/* Supporting Text */}
-          <p className="fade-in-element opacity-0 translate-y-8 transition-all duration-700 text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed" style={{ animationDelay: '0.3s' }}>
+          <p className="fade-in-element opacity-0 translate-y-8 transition-all duration-700 text-base sm:text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed" style={{ animationDelay: '0.3s' }}>
             Explore a collection of 3D CAD models, detailed technical drawings, and mechanical design solutions focused on precision and functionality.
           </p>
           
@@ -80,13 +80,13 @@ const Index = () => {
       </div>
 
       {/* Featured Projects Preview */}
-      <div className="relative z-10 py-20 px-6">
+      <div className="relative z-10 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <h3 className="fade-in-element opacity-0 translate-y-8 transition-all duration-700 text-3xl md:text-4xl font-bold mb-12 text-center" style={{ animationDelay: '0.6s' }}>
+          <h3 className="fade-in-element opacity-0 translate-y-8 transition-all duration-700 text-2xl sm:text-3xl md:text-4xl font-bold mb-12 text-center" style={{ animationDelay: '0.6s' }}>
             Featured <span className="text-[#c4ff0d]">Projects</span>
           </h3>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuredProjects.map((project, i) => (
               <Link to={`/project/${project.id}`} key={project.id} className="fade-in-element opacity-0 translate-y-8 transition-all duration-700 group relative bg-gray-900 rounded-lg overflow-hidden hover:transform hover:scale-105" style={{ animationDelay: `${0.7 + i * 0.1}s` }}>
                 <div className="aspect-video bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
