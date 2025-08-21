@@ -29,7 +29,7 @@ export const projects: Project[] = [
         '/images/swivel-bearing/sb-6.jpg'
       ],
       drafting: [
-        '/images/crane-hook/CH ASSEMBLY Drawing v1_page-0001.jpg'
+        '/images/swivel-bearing/sbd-1.jpg'
       ],
     }
   },
