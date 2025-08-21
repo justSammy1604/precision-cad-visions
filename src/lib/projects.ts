@@ -49,7 +49,7 @@ export const projects: Project[] = [
         '/images/lambo-alloy/a-6.png',
       ],
       drafting: [
-        'public/images/lambo-alloy/ALLOYS Drawing v1_page-0001.jpg'
+        '/images/lambo-alloy/ALLOYS Drawing v1_page-0001.jpg'
       ],
     }
   },
@@ -62,14 +62,14 @@ export const projects: Project[] = [
     software: ['Fusion 360'],
     gallery: {
       images: [
-        '/images/lambo-brakes/d-1.jpg',
+        '/images/lambo-brakes/d-1.png',
         '/images/lambo-brakes/d-2.jpg',
         '/images/lambo-brakes/d-3.jpg',
         '/images/lambo-brakes/d-4.jpg',  
         '/images/lambo-brakes/d-5.jpg'
       ],
       drafting: [
-        '/images/lambo-brakes/d-1.jpg',
+        '/images/lambo-brakes/d-1.png',
       ]
     }
   },

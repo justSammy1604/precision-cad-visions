@@ -153,7 +153,7 @@ const About = () => {
                   <h3 className="text-xl font-bold">SPECIALIZATIONS</h3>
                 </div>
                 <div className="space-y-2">
-                  {['Product Design', 'Sheet Metal', 'Assembly Design', 'Part Design', 'Pipe Routing'].map((spec) => (
+                  {['Product Design', 'Sheet Metal', 'Assembly Design', 'Part Design'].map((spec) => (
                     <div key={spec} className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-[#c4ff0d] rounded-full"></div>
                       <span className="text-gray-300">{spec}</span>
