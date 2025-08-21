@@ -88,7 +88,7 @@ export const projects: Project[] = [
         '/images/crane-hook/ch-4.jpg'
       ],
       drafting: [
-        'public/images/crane-hook/CH ASSEMBLY Drawing v1_page-0001.jpg',
+        '/images/crane-hook/CH ASSEMBLY Drawing v1_page-0001.jpg',
       ],
     }
   },
