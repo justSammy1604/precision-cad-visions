@@ -35,6 +35,22 @@ export const projects: Project[] = [
   },
   {
     id: 2,
+    title: 'Part E',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/e/Drawing1.dwg 1-D-Size Layout.pdf 1_page-0001.jpg',
+    software: ['AutoCAD'],
+    gallery: {
+      images: [
+        '/mech-parts/e/Screenshot 2025-08-21 112410.png',
+      ],
+      drafting: [
+        '/mech-parts/e/Drawing1.dwg 1-D-Size Layout.pdf 1_page-0001.jpg',
+      ]
+    }
+  },
+  {
+    id: 3,
     title: 'Lamborghini Alloy Design',
     category: 'Mechanical Assembly',
     description: 'Custom-designed Lamborghini alloy wheel, modeled and rendered in Fusion 360. The design is a multi-spoke forged style—modern, lightweight, and performance-oriented—commonly found on Lamborghini models like the Huracán EVO or Aventador SVJ.',
@@ -54,7 +70,25 @@ export const projects: Project[] = [
     }
   },
   {
-    id: 3,
+    id: 4,
+    title: 'Bevel Gear',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/bevel/b-g-2.png',
+    software: ['Fusion 360'],
+    gallery: {
+      images: [
+        '/mech-parts/bevel/b-g-2.png',
+        '/mech-parts/bevel/b-g.png',
+        '/mech-parts/bevel/bgd_page-0001.jpg'
+      ],
+      drafting: [
+        '/mech-parts/bevel/bgd_page-0001.jpg',
+      ]
+    }
+  },
+  {
+    id: 5,
     title: 'Lamborghini Brake Design',
     category: 'Mechanical Assembly',
     description: 'Here’s a high-detail disc brake assembly inspired by Lamborghini, Modeled and Rendered entirely in Fusion 360.',
@@ -74,7 +108,23 @@ export const projects: Project[] = [
     }
   },
   {
-    id: 4,
+    id: 6,
+    title: 'Part A',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/a/Drawing1.dwg 1-D-Size Layout.pdf 6_page-0001.jpg',
+    software: ['AutoCAD'],
+    gallery: {
+      images: [
+        '/mech-parts/a/Screenshot 2025-08-21 113240.png',
+      ],
+      drafting: [
+        '/mech-parts/a/Drawing1.dwg 1-D-Size Layout.pdf 6_page-0001.jpg',
+      ]
+    }
+  },
+  {
+    id: 7,
     title: 'Crane Hook Design',
     category: 'Mechanical Assembly',
     description: 'Lifting component for securely holding slings or ropes during heavy load handling',
@@ -93,7 +143,7 @@ export const projects: Project[] = [
     }
   },
   {
-    id: 5,
+    id: 8,
     title: 'Stuffing Box Design',
     category: 'Mechanical Assembly',
     description: 'Sealing component used to prevent leakage around a moving shaft in pumps and marine applications',
@@ -110,7 +160,23 @@ export const projects: Project[] = [
     }
   },
   {
-    id: 6,
+    id: 9,
+    title: 'Part C',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/c/Drawing1.dwg 1-D-Size Layout.pdf 4_page-0001.jpg',
+    software: ['AutoCAD'],
+    gallery: {
+      images: [
+        '/mech-parts/c/Screenshot 2025-08-21 112751.png',
+      ],
+      drafting: [
+        '/mech-parts/c/Drawing1.dwg 1-D-Size Layout.pdf 4_page-0001.jpg',
+      ]
+    }
+  },
+  {
+    id: 10,
     title: 'Shock Assembly Design',
     category: 'Mechanical Assembly',
     description: 'Absorbs and dampens impact forces in mechanical systems for smoother operations',
@@ -128,7 +194,24 @@ export const projects: Project[] = [
     }
   },
   {
-    id: 7,
+    id: 11,
+    title: 'Part G',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/g/p-1.png',
+    software: ['Fusion 360'],
+    gallery: {
+      images: [
+        '/mech-parts/g/p-1.png',
+        '/mech-parts/g/p-1D_page-0001.jpg',
+      ],
+      drafting: [
+        '/mech-parts/g/p-1D_page-0001.jpg',
+      ]
+    }
+  },
+  {
+    id: 12,
     title: 'Steam Engine Design',
     category: 'Mechanical Assembly',
     description: 'Mechanical engine model convering steam energy into reciprocating motion',
@@ -145,7 +228,24 @@ export const projects: Project[] = [
     }
   },
   {
-    id: 8,
+    id: 13,
+    title: 'Part F',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/f/Drawing1.dwg 1-D-Size Layout.pdf 2_page-0001.jpg',
+    software: ['AutoCAD'],
+    gallery: {
+      images: [
+        '/mech-parts/f/Drawing1.dwg 1-D-Size Layout.pdf 2_page-0001.jpg',
+        '/mech-parts/f/Screenshot 2025-08-21 112537.png',
+      ],
+      drafting: [
+        '/mech-parts/f/Drawing1.dwg 1-D-Size Layout.pdf 2_page-0001.jpg',
+      ]
+    }
+  },
+  {
+    id: 14,
     title: 'Tail Stock Design',
     category: 'Mechanical Assembly',
     description: 'Lathe component supporting the free end of workpieces during machining',
@@ -162,8 +262,24 @@ export const projects: Project[] = [
       ]
     }
   },
+    {
+    id: 15,
+    title: 'Part H',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/h/3D-D-Size Layout_page-0001.jpg',
+    software: ['AutoCAD'],
+    gallery: {
+      images: [
+        '/mech-parts/h/Screenshot 2025-08-21 113837.png',
+      ],
+      drafting: [
+        '/mech-parts/h/3D-D-Size Layout_page-0001.jpg',
+      ]
+    }
+  },
   {
-    id: 9,
+    id: 16,
     title: 'Screw Jack Design',
     category: 'Mechanical Assembly',
     description: 'Mechanical lifting device using a screw mechanism to raise or lower heave loads',
@@ -183,7 +299,7 @@ export const projects: Project[] = [
     }
   },
   {
-    id: 10,
+    id: 17,
     title: 'Non-Return Valve Design',
     category: 'Mechanical Assembly',
     description: 'Valve that permits fluid flow in one direction while preventing backflow',
@@ -203,7 +319,23 @@ export const projects: Project[] = [
     }
   },
   {
-    id: 11,
+    id: 18,
+    title: 'Part I',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/i/Drawing1-D-Size Layout_page-0001.jpg',
+    software: ['AutoCAD'],
+    gallery: {
+      images: [
+        '/mech-parts/i/Screenshot 2025-08-21 113452.png',
+      ],
+      drafting: [
+       '/mech-parts/i/Drawing1-D-Size Layout_page-0001.jpg',
+      ]
+    }
+  },
+  {
+    id: 19,
     title: 'Eccentric Assembly Design',
     category: 'Mechanical Assembly',
     description: 'Offset cam mechanism used to convert rotary motion into reciprocating motion',
@@ -222,7 +354,7 @@ export const projects: Project[] = [
     }
   },
   {
-    id: 12,
+    id: 20,
     title: 'Drill Jig Design',
     category: 'Mechanical Assembly',
     description: 'Precision Tool guiding drills to ensure accurate hole placement in manufacturing',
@@ -239,23 +371,7 @@ export const projects: Project[] = [
     }
   },
   {
-    id: 13,
-    title: 'Part A',
-    category: 'Mechanical Part',
-    description: '',
-    image: '/mech-parts/a/Drawing1.dwg 1-D-Size Layout.pdf 6_page-0001.jpg',
-    software: ['AutoCAD'],
-    gallery: {
-      images: [
-        '/mech-parts/a/Screenshot 2025-08-21 113240.png',
-      ],
-      drafting: [
-        '/mech-parts/a/Drawing1.dwg 1-D-Size Layout.pdf 6_page-0001.jpg',
-      ]
-    }
-  },
-  {
-    id: 14,
+    id: 21,
     title: 'Part B',
     category: 'Mechanical Part',
     description: '',
@@ -272,23 +388,7 @@ export const projects: Project[] = [
     }
   },
   {
-    id: 15,
-    title: 'Part C',
-    category: 'Mechanical Part',
-    description: '',
-    image: '/mech-parts/c/Drawing1.dwg 1-D-Size Layout.pdf 4_page-0001.jpg',
-    software: ['AutoCAD'],
-    gallery: {
-      images: [
-        '/mech-parts/c/Screenshot 2025-08-21 112751.png',
-      ],
-      drafting: [
-        '/mech-parts/c/Drawing1.dwg 1-D-Size Layout.pdf 4_page-0001.jpg',
-      ]
-    }
-  },
-  {
-    id: 16,
+    id: 22,
     title: 'Part D',
     category: 'Mechanical Part',
     description: '',
@@ -304,89 +404,7 @@ export const projects: Project[] = [
     }
   },
   {
-    id: 17,
-    title: 'Part E',
-    category: 'Mechanical Part',
-    description: '',
-    image: '/mech-parts/e/Drawing1.dwg 1-D-Size Layout.pdf 1_page-0001.jpg',
-    software: ['AutoCAD'],
-    gallery: {
-      images: [
-        '/mech-parts/e/Screenshot 2025-08-21 112410.png',
-      ],
-      drafting: [
-        '/mech-parts/e/Drawing1.dwg 1-D-Size Layout.pdf 1_page-0001.jpg',
-      ]
-    }
-  },
-  {
-    id: 18,
-    title: 'Part F',
-    category: 'Mechanical Part',
-    description: '',
-    image: '/mech-parts/f/Drawing1.dwg 1-D-Size Layout.pdf 2_page-0001.jpg',
-    software: ['AutoCAD'],
-    gallery: {
-      images: [
-        '/mech-parts/f/Drawing1.dwg 1-D-Size Layout.pdf 2_page-0001.jpg',
-        '/mech-parts/f/Screenshot 2025-08-21 112537.png',
-      ],
-      drafting: [
-        '/mech-parts/f/Drawing1.dwg 1-D-Size Layout.pdf 2_page-0001.jpg',
-      ]
-    }
-  },
-  {
-    id: 19,
-    title: 'Part G',
-    category: 'Mechanical Part',
-    description: '',
-    image: '/mech-parts/g/p-1.png',
-    software: ['Fusion 360'],
-    gallery: {
-      images: [
-        '/mech-parts/g/p-1.png',
-        '/mech-parts/g/p-1D_page-0001.jpg',
-      ],
-      drafting: [
-        '/mech-parts/g/p-1D_page-0001.jpg',
-      ]
-    }
-  },
-  {
-    id: 20,
-    title: 'Part H',
-    category: 'Mechanical Part',
-    description: '',
-    image: '/mech-parts/h/3D-D-Size Layout_page-0001.jpg',
-    software: ['AutoCAD'],
-    gallery: {
-      images: [
-        '/mech-parts/h/Screenshot 2025-08-21 113837.png',
-      ],
-      drafting: [
-        '/mech-parts/h/3D-D-Size Layout_page-0001.jpg',
-      ]
-    }
-  },
-  {
-    id: 21,
-    title: 'Part I',
-    category: 'Mechanical Part',
-    description: '',
-    image: '/mech-parts/i/Drawing1-D-Size Layout_page-0001.jpg',
-    software: ['AutoCAD'],
-    gallery: {
-      images: [
-        '/mech-parts/i/Screenshot 2025-08-21 113452.png',
-      ],
-      drafting: [
-       '/mech-parts/i/Drawing1-D-Size Layout_page-0001.jpg',
-      ]
-    }
-  },
-  {
-    id: 22,
+    id: 23,
     title: 'Part J',
     category: 'Mechanical Part',
     description: '',
@@ -399,24 +417,6 @@ export const projects: Project[] = [
       ],
       drafting: [
         '/mech-parts/j/3D-Layout4-D-Size Layout_page-0001.jpg',
-      ]
-    }
-  },
-  {
-    id: 23,
-    title: 'Bevel Gear',
-    category: 'Mechanical Part',
-    description: '',
-    image: '/mech-parts/bevel/b-g-2.png',
-    software: ['Fusion 360'],
-    gallery: {
-      images: [
-        '/mech-parts/bevel/b-g-2.png',
-        '/mech-parts/bevel/b-g.png',
-        '/mech-parts/bevel/bgd_page-0001.jpg'
-      ],
-      drafting: [
-        '/mech-parts/bevel/bgd_page-0001.jpg',
       ]
     }
   },
