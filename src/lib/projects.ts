@@ -35,17 +35,21 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    title: 'Part E',
-    category: 'Mechanical Part',
-    description: '',
-    image: '/mech-parts/e/Drawing1.dwg 1-D-Size Layout.pdf 1_page-0001.jpg',
-    software: ['AutoCAD'],
+    title: 'Lamborghini Brake Design',
+    category: 'Mechanical Assembly',
+    description: 'Here’s a high-detail disc brake assembly inspired by Lamborghini, Modeled and Rendered entirely in Fusion 360.',
+    image: '/images/d-1.png',
+    software: ['Fusion 360'],
     gallery: {
       images: [
-        '/mech-parts/e/Screenshot 2025-08-21 112410.png',
+        '/images/lambo-brakes/d-1.png',
+        '/images/lambo-brakes/d-2.jpg',
+        '/images/lambo-brakes/d-3.jpg',
+        '/images/lambo-brakes/d-4.jpg',  
+        '/images/lambo-brakes/d-5.jpg'
       ],
       drafting: [
-        '/mech-parts/e/Drawing1.dwg 1-D-Size Layout.pdf 1_page-0001.jpg',
+        '/images/lambo-brakes/d-1.png',
       ]
     }
   },
@@ -71,6 +75,22 @@ export const projects: Project[] = [
   },
   {
     id: 4,
+    title: 'Part E',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/e/Drawing1.dwg 1-D-Size Layout.pdf 1_page-0001.jpg',
+    software: ['AutoCAD'],
+    gallery: {
+      images: [
+        '/mech-parts/e/Screenshot 2025-08-21 112410.png',
+      ],
+      drafting: [
+        '/mech-parts/e/Drawing1.dwg 1-D-Size Layout.pdf 1_page-0001.jpg',
+      ]
+    }
+  },
+  {
+    id: 5,
     title: 'Bevel Gear',
     category: 'Mechanical Part',
     description: '',
@@ -84,26 +104,6 @@ export const projects: Project[] = [
       ],
       drafting: [
         '/mech-parts/bevel/bgd_page-0001.jpg',
-      ]
-    }
-  },
-  {
-    id: 5,
-    title: 'Lamborghini Brake Design',
-    category: 'Mechanical Assembly',
-    description: 'Here’s a high-detail disc brake assembly inspired by Lamborghini, Modeled and Rendered entirely in Fusion 360.',
-    image: '/images/d-1.png',
-    software: ['Fusion 360'],
-    gallery: {
-      images: [
-        '/images/lambo-brakes/d-1.png',
-        '/images/lambo-brakes/d-2.jpg',
-        '/images/lambo-brakes/d-3.jpg',
-        '/images/lambo-brakes/d-4.jpg',  
-        '/images/lambo-brakes/d-5.jpg'
-      ],
-      drafting: [
-        '/images/lambo-brakes/d-1.png',
       ]
     }
   },
