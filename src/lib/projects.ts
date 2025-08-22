@@ -238,6 +238,194 @@ export const projects: Project[] = [
       ]
     }
   },
+  {
+    id: 13,
+    title: 'Part A',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/a/Drawing1.dwg 1-D-Size Layout.pdf 6_page-0001.jpg',
+    software: ['AutoCAD'],
+    gallery: {
+      images: [
+        '/mech-parts/a/Drawing1.dwg 1-D-Size Layout.pdf 6_page-0001.jpg',
+        '/mech-parts/a/Screenshot 2025-08-21 113240.png',
+      ],
+      drafting: [
+        '/mech-parts/a/Screenshot 2025-08-21 113240.png',
+      ]
+    }
+  },
+  {
+    id: 14,
+    title: 'Part B',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/b/Drawing1.dwg 1-D-Size Layout.pdf 5_page-0001.jpg',
+    software: ['AutoCAD'],
+    gallery: {
+      images: [
+        '/mech-parts/b/Drawing1.dwg 1-D-Size Layout.pdf 5_page-0001.jpg',
+        '/mech-parts/b/Screenshot 2025-08-21 113129.png',
+      ],
+      drafting: [
+        '/mech-parts/b/Screenshot 2025-08-21 113240.png',
+      ]
+    }
+  },
+  {
+    id: 15,
+    title: 'Part C',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/c/Drawing1.dwg 1-D-Size Layout.pdf 4_page-0001.jpg',
+    software: ['AutoCAD'],
+    gallery: {
+      images: [
+        '/mech-parts/c/Drawing1.dwg 1-D-Size Layout.pdf 4_page-0001.jpg',
+        '/mech-parts/c/Screenshot 2025-08-21 112751.png',
+      ],
+      drafting: [
+        '/mech-parts/c/Screenshot 2025-08-21 112751.png',
+      ]
+    }
+  },
+  {
+    id: 16,
+    title: 'Part D',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/d/Drawing1.dwg 1-D-Size Layout.pdf 3_page-0001.jpg',
+    software: ['AutoCAD'],
+    gallery: {
+      images: [
+        '/mech-parts/d/Drawing1.dwg 1-D-Size Layout.pdf 3_page-0001.jpg',
+        '/mech-parts/d/Screenshot 2025-08-21 112635.png',
+      ],
+      drafting: [
+        '/mech-parts/d/Screenshot 2025-08-21 112635.png',
+      ]
+    }
+  },
+  {
+    id: 17,
+    title: 'Part E',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/e/Drawing1.dwg 1-D-Size Layout.pdf 1_page-0001.jpg',
+    software: ['AutoCAD'],
+    gallery: {
+      images: [
+        '/mech-parts/e/Drawing1.dwg 1-D-Size Layout.pdf 1_page-0001.jpg',
+        '/mech-parts/e/Screenshot 2025-08-21 112410.png',
+      ],
+      drafting: [
+        '/mech-parts/e/Screenshot 2025-08-21 112410.png',
+      ]
+    }
+  },
+  {
+    id: 18,
+    title: 'Part F',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/f/Drawing1.dwg 1-D-Size Layout.pdf 2_page-0001.jpg',
+    software: ['AutoCAD'],
+    gallery: {
+      images: [
+        '/mech-parts/f/Drawing1.dwg 1-D-Size Layout.pdf 2_page-0001.jpg',
+        '/mech-parts/f/Screenshot 2025-08-21 112537.png',
+      ],
+      drafting: [
+        '/mech-parts/f/Screenshot 2025-08-21 112537.png',
+      ]
+    }
+  },
+  {
+    id: 19,
+    title: 'Part G',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/g/p-1.png',
+    software: ['Fusion 360'],
+    gallery: {
+      images: [
+        '/mech-parts/g/p-1.png',
+        '/mech-parts/g/p-1D_page-0001.jpg',
+      ],
+      drafting: [
+        '/mech-parts/g/p-1D_page-0001.jpg',
+      ]
+    }
+  },
+  {
+    id: 20,
+    title: 'Part H',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/h/3D-D-Size Layout_page-0001.jpg',
+    software: ['AutoCAD'],
+    gallery: {
+      images: [
+        '/mech-parts/h/3D-D-Size Layout_page-0001.jpg',
+        '/mech-parts/h/Screenshot 2025-08-21 113837.png',
+      ],
+      drafting: [
+        '/mech-parts/h/Screenshot 2025-08-21 113837.png',
+      ]
+    }
+  },
+  {
+    id: 21,
+    title: 'Part I',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/i/Drawing1-D-Size Layout_page-0001.jpg',
+    software: ['AutoCAD'],
+    gallery: {
+      images: [
+        '/mech-parts/i/Drawing1-D-Size Layout_page-0001.jpg',
+        '/mech-parts/i/Screenshot 2025-08-21 113452.png',
+      ],
+      drafting: [
+        '/mech-parts/i/Screenshot 2025-08-21 113452.png',
+      ]
+    }
+  },
+  {
+    id: 22,
+    title: 'Part J',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/j/3D-Layout4-D-Size Layout_page-0001.jpg',
+    software: ['AutoCAD'],
+    gallery: {
+      images: [
+        '/mech-parts/j/3D-Layout4-D-Size Layout_page-0001.jpg',
+        '/mech-parts/j/Screenshot 2025-08-21 113934.png',
+      ],
+      drafting: [
+        '/mech-parts/j/Screenshot 2025-08-21 113934.png',
+      ]
+    }
+  },
+  {
+    id: 23,
+    title: 'Bevel Gear',
+    category: 'Mechanical Part',
+    description: '',
+    image: '/mech-parts/bevel/b-g-2.png',
+    software: ['Fusion 360'],
+    gallery: {
+      images: [
+        '/mech-parts/bevel/b-g-2.png',
+        '/mech-parts/bevel/b-g.png',
+        '/mech-parts/bevel/bgd_page-0001.jpg'
+      ],
+      drafting: [
+        '/mech-parts/bevel/bgd_page-0001.jpg',
+      ]
+    }
+  },
 ];
 
 export const getProjectById = (id: number) => {
