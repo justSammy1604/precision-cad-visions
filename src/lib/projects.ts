@@ -247,11 +247,10 @@ export const projects: Project[] = [
     software: ['AutoCAD'],
     gallery: {
       images: [
-        '/mech-parts/a/Drawing1.dwg 1-D-Size Layout.pdf 6_page-0001.jpg',
         '/mech-parts/a/Screenshot 2025-08-21 113240.png',
       ],
       drafting: [
-        '/mech-parts/a/Screenshot 2025-08-21 113240.png',
+        '/mech-parts/a/Drawing1.dwg 1-D-Size Layout.pdf 6_page-0001.jpg',
       ]
     }
   },
@@ -264,11 +263,11 @@ export const projects: Project[] = [
     software: ['AutoCAD'],
     gallery: {
       images: [
-        '/mech-parts/b/Drawing1.dwg 1-D-Size Layout.pdf 5_page-0001.jpg',
         '/mech-parts/b/Screenshot 2025-08-21 113129.png',
       ],
       drafting: [
-        '/mech-parts/b/Screenshot 2025-08-21 113240.png',
+        '/mech-parts/b/Drawing1.dwg 1-D-Size Layout.pdf 5_page-0001.jpg',
+
       ]
     }
   },
@@ -281,11 +280,10 @@ export const projects: Project[] = [
     software: ['AutoCAD'],
     gallery: {
       images: [
-        '/mech-parts/c/Drawing1.dwg 1-D-Size Layout.pdf 4_page-0001.jpg',
         '/mech-parts/c/Screenshot 2025-08-21 112751.png',
       ],
       drafting: [
-        '/mech-parts/c/Screenshot 2025-08-21 112751.png',
+        '/mech-parts/c/Drawing1.dwg 1-D-Size Layout.pdf 4_page-0001.jpg',
       ]
     }
   },
@@ -298,11 +296,10 @@ export const projects: Project[] = [
     software: ['AutoCAD'],
     gallery: {
       images: [
-        '/mech-parts/d/Drawing1.dwg 1-D-Size Layout.pdf 3_page-0001.jpg',
         '/mech-parts/d/Screenshot 2025-08-21 112635.png',
       ],
       drafting: [
-        '/mech-parts/d/Screenshot 2025-08-21 112635.png',
+        '/mech-parts/d/Drawing1.dwg 1-D-Size Layout.pdf 3_page-0001.jpg',
       ]
     }
   },
@@ -315,11 +312,10 @@ export const projects: Project[] = [
     software: ['AutoCAD'],
     gallery: {
       images: [
-        '/mech-parts/e/Drawing1.dwg 1-D-Size Layout.pdf 1_page-0001.jpg',
         '/mech-parts/e/Screenshot 2025-08-21 112410.png',
       ],
       drafting: [
-        '/mech-parts/e/Screenshot 2025-08-21 112410.png',
+        '/mech-parts/e/Drawing1.dwg 1-D-Size Layout.pdf 1_page-0001.jpg',
       ]
     }
   },
@@ -336,7 +332,7 @@ export const projects: Project[] = [
         '/mech-parts/f/Screenshot 2025-08-21 112537.png',
       ],
       drafting: [
-        '/mech-parts/f/Screenshot 2025-08-21 112537.png',
+        '/mech-parts/f/Drawing1.dwg 1-D-Size Layout.pdf 2_page-0001.jpg',
       ]
     }
   },
@@ -366,11 +362,10 @@ export const projects: Project[] = [
     software: ['AutoCAD'],
     gallery: {
       images: [
-        '/mech-parts/h/3D-D-Size Layout_page-0001.jpg',
         '/mech-parts/h/Screenshot 2025-08-21 113837.png',
       ],
       drafting: [
-        '/mech-parts/h/Screenshot 2025-08-21 113837.png',
+        '/mech-parts/h/3D-D-Size Layout_page-0001.jpg',
       ]
     }
   },
@@ -383,11 +378,10 @@ export const projects: Project[] = [
     software: ['AutoCAD'],
     gallery: {
       images: [
-        '/mech-parts/i/Drawing1-D-Size Layout_page-0001.jpg',
         '/mech-parts/i/Screenshot 2025-08-21 113452.png',
       ],
       drafting: [
-        '/mech-parts/i/Screenshot 2025-08-21 113452.png',
+       '/mech-parts/i/Drawing1-D-Size Layout_page-0001.jpg',
       ]
     }
   },
@@ -404,7 +398,7 @@ export const projects: Project[] = [
         '/mech-parts/j/Screenshot 2025-08-21 113934.png',
       ],
       drafting: [
-        '/mech-parts/j/Screenshot 2025-08-21 113934.png',
+        '/mech-parts/j/3D-Layout4-D-Size Layout_page-0001.jpg',
       ]
     }
   },
