@@ -97,7 +97,7 @@ const About = () => {
                       <h3 className="text-xl font-bold mb-2">High School Diploma in Mechanical Engineering</h3>
                       <p className="text-[#c4ff0d] font-medium mb-3">Institute Of Shipbuilding Technology</p>
                       <p className="text-gray-400 text-sm">
-                        Completed technical diploma focused on machine design, manufacturing processes, and CAD fundamentals.
+                        Completed technical diploma in mechanical engineering. 
                       </p>
                     </div>
                   </div>
@@ -116,7 +116,7 @@ const About = () => {
                       <h3 className="text-xl font-bold mb-2">Grade 10th</h3>
                       <p className="text-[#c4ff0d] font-medium mb-3">Regina Mundi High School</p>
                       <p className="text-gray-400 text-sm">
-                        Completed foundational education with focus on mathematics and science.
+                        Completed foundational education.
                       </p>
                     </div>
                   </div>
