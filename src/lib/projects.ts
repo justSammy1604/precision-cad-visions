@@ -429,11 +429,11 @@ export const projects: Project[] = [
     software: ['AutoCAD', 'Fusion 360'],
     gallery: {
       images: [
-        '/images/iphone/ip-1.png',
-        '/images/iphone/ip-2.png',
-        '/images/iphone/ip-3.png',
-        '/images/iphone/ip-4.png',
-        '/images/iphone/ip-5.png',
+        '/images/iphone/ip-1.jpeg',
+        '/images/iphone/ip-2.jpeg',
+        '/images/iphone/ip-3.jpeg',
+        '/images/iphone/ip-4.jpeg',
+        '/images/iphone/ip-5.jpeg',
       ],
       drafting: [
         '/images/iphone/ip-6.png',
