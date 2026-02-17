@@ -424,9 +424,9 @@ export const projects: Project[] = [
     id: 24,
     title: 'IPhone Design',
     category: 'Mechanical Assembly',
-    description: '',
+    description: 'An intricate 3D model of an iPhone, showcasing detailed design and rendering skills in Fusion 360 and AutoCAD, capturing the sleek aesthetics and precise engineering of the iconic device.',
     image: '/images/iphone/ip-6.png',
-    software: ['AutoCAD'],
+    software: ['AutoCAD', 'Fusion 360'],
     gallery: {
       images: [
         '/images/iphone/ip-1.png',
