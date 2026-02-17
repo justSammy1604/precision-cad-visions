@@ -420,6 +420,26 @@ export const projects: Project[] = [
       ]
     }
   },
+  {
+    id: 24,
+    title: 'IPhone Design',
+    category: 'Mechanical Assembly',
+    description: '',
+    image: '/images/iphone/ip-6.png',
+    software: ['AutoCAD'],
+    gallery: {
+      images: [
+        '/images/iphone/ip-1.png',
+        '/images/iphone/ip-2.png',
+        '/images/iphone/ip-3.png',
+        '/images/iphone/ip-4.png',
+        '/images/iphone/ip-5.png',
+      ],
+      drafting: [
+        '/images/iphone/ip-6.png',
+      ]
+    }
+  },
 ];
 
 export const getProjectById = (id: number) => {

@@ -7,7 +7,7 @@ import { projects, getProjectsByCategory } from '../lib/projects';
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('All');
   
-  const filters = ['All', 'Mechanical Assembly', 'Mechanical Part'];
+  const filters = ['Mechanical Assembly', 'Mechanical Part', 'All'];
 
   const filteredProjects = getProjectsByCategory(activeFilter);
 
